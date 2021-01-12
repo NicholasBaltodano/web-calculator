@@ -21,4 +21,28 @@ body{
 .full-height {
 height: 100%;
 }
+
+.button {
+    height: 60px;
+    width: 60px;
+    background-color: aqua;
+    margin: 2px;
+    border: 1px black solid;
+}
+
+
+.buttonRow {
+    display: flex;
+    flex-direction: row;
+       
+    width: 100%;
+    background-color: purple;
+    
+}
+
+.screen {
+    width: inherit - 10px;
+    height: 90px;
+    background-color: beige;
+}
   
