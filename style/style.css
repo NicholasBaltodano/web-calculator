@@ -42,7 +42,15 @@ height: 100%;
     
 }
 
-.screen {
+#historyScreen{
+    height: 30%;
+    background-color: aliceblue;
+}
+#mainScreen {
+    height: 70%;
+    background-color: aquamarine;
+}
+.screenContainer {
     width: 100%;
     height: 90px;
     background-color: silver;
