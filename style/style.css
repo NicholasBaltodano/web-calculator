@@ -54,3 +54,7 @@ height: 100%;
     background-color: lightgray;
     border: ;
 }
+
+.double{
+    flex-grow: 2;
+}
