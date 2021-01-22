@@ -35,6 +35,18 @@ function operate(operator, a, b){
         case 'divide': 
             return divide(a, b);
             break;
+        case '+': 
+            return add(a, b);
+            break; 
+        case '-':
+            return subtract(a,b);
+            break;
+        case 'x': 
+            return multiply(a, b);
+            break;
+        case '/': 
+            return divide(a, b);
+            break;
         default:
             return "Something went wrong";
     }
